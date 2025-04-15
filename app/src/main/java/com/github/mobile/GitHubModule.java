@@ -49,7 +49,7 @@ public class GitHubModule extends AbstractModule {
 
     private WeakReference<GistStore> gists;
 
-    private WeakReference<CommitStore> commits;
+    // private WeakReference<CommitStore> commits;
 
     @Override
     protected void configure() {
